@@ -1,6 +1,7 @@
 import requests
 import time
-import json
+import pandas as pd
+import os
 
 url ="https://sekolah.data.kemendikdasmen.go.id/v1/sekolah-service/sekolah/cari-sekolah"
 
@@ -74,9 +75,16 @@ for kota in daftar_kota:
 
         print(f"Data yang didapatkan adalah {jumlah_data} data")
 
-# Simpan ke JSON
-with open("data_sekolah.json", 'w', encoding='UTF-8') as f:
-    json.dump(semua_data_sekolah, f, indent=4, ensure_ascii=False)
+if semua_data_sekolah:
+    df = pd.DataFrame(semua_data_sekolah)
+
+    file = "data"
+    if not os.path.exists(file):
+        os.makedirs(file)
+        print(f"folder {file} berhasil dibuat")
+
+    file_path = os.path.join(file, "data_sekolah.json")
+    df.to_json(file_path, orient="records", indent=4)
 
 print(f"\nTotal seluruh data: {len(semua_data_sekolah)} disimpan ke data_sekolah.json")
 
