@@ -20,14 +20,14 @@ cookies = {
 }
 
 daftar_kota = ["Kota Bandung", "Kota Cimahi", "Kab. Bandung", "Kab. Sumedang", "Kab. Bandung Barat"]
-daftar_jenjang = ["SMA", "SMK", "SMAK", "MA"]
+daftar_bentuk = ["SMA", "SMK", "SMAK", "MA"]
 semua_data_sekolah = []
 
 for kota in daftar_kota:
-    for jenjang in daftar_jenjang:
+    for bentuk in daftar_bentuk:
         halaman = 0
         jumlah_data = 0
-        print(f"\nMengambil {jenjang} di {kota}...")
+        print(f"\nMengambil {bentuk} di {kota}...")
 
         while True:
             payload = {
@@ -35,7 +35,7 @@ for kota in daftar_kota:
                 "size": 48,
                 "keyword": "",
                 "kabupaten_kota": kota,
-                "bentuk_pendidikan": jenjang,
+                "bentuk_pendidikan": bentuk,
                 "status_sekolah": ""
             }
 
@@ -62,12 +62,12 @@ for kota in daftar_kota:
                         "longitude": sekolah.get('bujur'),
                         "alamat": sekolah.get('alamat_jalan'),
                         "wilayah": kota,
-                        "jenjang": jenjang 
+                        "bentuk_pendidikan": bentuk 
                     })
                     jumlah_data += 1
 
                 halaman += 1
-                time.sleep(1)
+                time.sleep(0.2)
 
             except Exception as e:
                 print(f"Terjadi error: {e}")
