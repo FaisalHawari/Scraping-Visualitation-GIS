@@ -1,6 +1,6 @@
 [
     {
-        "nama_sekolah":"SMA Bintang Madani Omni",
+        "nama_sekolah":"SMA BINTANG MADANI OMNI",
         "npsn":70058067,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
@@ -26,8 +26,8 @@
         "npsn":70052371,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.9302209965,
-        "longitude":107.6193299832,
+        "latitude":-6.9054,
+        "longitude":107.6307,
         "alamat":"Jl. Sancang No. 4 ",
         "wilayah":"Kota Bandung",
         "bentuk_pendidikan":"SMA"
@@ -48,8 +48,8 @@
         "npsn":70051306,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.8939760965,
-        "longitude":107.6395260951,
+        "latitude":-6.89394,
+        "longitude":107.63923,
         "alamat":"Jl. Cikutra No. 205-A",
         "wilayah":"Kota Bandung",
         "bentuk_pendidikan":"SMA"
@@ -66,7 +66,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Al-Ihsan Cimencrang Bandung",
+        "nama_sekolah":"SMA AL-IHSAN CIMENCRANG BANDUNG",
         "npsn":70032509,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -77,7 +77,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Daarut Tauhiid Boarding School Putri",
+        "nama_sekolah":"SMA DAARUT TAUHIID BOARDING SCHOOL PUTRI",
         "npsn":70029866,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -88,7 +88,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Citra Cemara",
+        "nama_sekolah":"SMA CITRA CEMARA",
         "npsn":70024550,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -781,7 +781,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA LPPM 19 Bumi Siliwangi",
+        "nama_sekolah":"SMA LPPM 19 BUMI SILIWANGI",
         "npsn":20219749,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -1210,7 +1210,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA ST. Aloysius",
+        "nama_sekolah":"SMA ST. ALOYSIUS",
         "npsn":20219263,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -1507,7 +1507,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"Sekolah Rakyat Menengah Atas 11 Bandung",
+        "nama_sekolah":"SEKOLAH RAKYAT MENENGAH ATAS 11 BANDUNG",
         "npsn":70055425,
         "status":"NEGERI",
         "akreditasi":"Tidak Terdata",
@@ -1529,7 +1529,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Kuntum Cemerlang",
+        "nama_sekolah":"SMA KUNTUM CEMERLANG",
         "npsn":69895412,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -1562,7 +1562,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Santo Aloysius\u00a02",
+        "nama_sekolah":"SMA SANTO ALOYSIUS\u00a02",
         "npsn":20219262,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -1606,7 +1606,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMK Bahagia",
+        "nama_sekolah":"SMK BAHAGIA",
         "npsn":69894963,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -2684,7 +2684,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS NURUL HIDAYAH ",
+        "nama_sekolah":"SMKS NURUL HIDAYAH",
         "npsn":20275329,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -2772,7 +2772,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"MAS Miftahul Falah",
+        "nama_sekolah":"MAS MIFTAHUL FALAH",
         "npsn":69941682,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -2948,7 +2948,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAN 2 Kota Bandung",
+        "nama_sekolah":"MAN 2 KOTA BANDUNG",
         "npsn":20277070,
         "status":"NEGERI",
         "akreditasi":"A",
@@ -3062,8 +3062,8 @@
         "npsn":70045403,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.9611364065,
-        "longitude":107.6567208027,
+        "latitude":-6.9549,
+        "longitude":107.656471,
         "alamat":"Jl. Margasari No. 221 A",
         "wilayah":"Kota Bandung",
         "bentuk_pendidikan":"MA"
@@ -3091,7 +3091,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Tridaya Tunas Bangsa",
+        "nama_sekolah":"SMA TRIDAYA TUNAS BANGSA",
         "npsn":70024632,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -3267,7 +3267,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"Sekolah Rakyat Menengah Atas Terintegrasi 17 Cimahi ",
+        "nama_sekolah":"SEKOLAH RAKYAT MENENGAH ATAS TERINTEGRASI 17 CIMAHI",
         "npsn":70055495,
         "status":"NEGERI",
         "akreditasi":"Tidak Terdata",
@@ -3612,8 +3612,8 @@
         "npsn":70044428,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.8534211101,
-        "longitude":107.5423325533,
+        "latitude":-6.8530428,
+        "longitude":107.5424881,
         "alamat":"Jl. Martasik Kp. Cimenteng",
         "wilayah":"Kota Cimahi",
         "bentuk_pendidikan":"MA"
@@ -3630,7 +3630,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"SMA Islam Terpadu Al-Ajwa Al Islamy",
+        "nama_sekolah":"SMA ISLAM TERPADU AL-AJWA AL ISLAMY",
         "npsn":70056730,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
@@ -3689,8 +3689,8 @@
         "npsn":70045667,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.9219649057,
-        "longitude":107.7261960636,
+        "latitude":-6.9409223,
+        "longitude":107.7243616,
         "alamat":"Jl. Raya Cibiru No. 15 RT.01 RW.16",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"SMA"
@@ -3777,14 +3777,14 @@
         "npsn":70032175,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-7.1,
-        "longitude":107.61667,
+        "latitude":-7.0064,
+        "longitude":107.6196,
         "alamat":"Jl. T Endung Surya Putra RT. 04 RW. 13",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Islam Bakti Asih",
+        "nama_sekolah":"SMA ISLAM BAKTI ASIH",
         "npsn":70027168,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -4895,7 +4895,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"Sekolah Rakyat Menengah Atas Terintegrasi 16 Bandung",
+        "nama_sekolah":"SEKOLAH RAKYAT MENENGAH ATAS TERINTEGRASI 16 BANDUNG",
         "npsn":70055493,
         "status":"NEGERI",
         "akreditasi":"Tidak Terdata",
@@ -5020,19 +5020,19 @@
         "npsn":70032752,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.98361,
-        "longitude":107.75861,
+        "latitude":-6.9636,
+        "longitude":107.7641,
         "alamat":"Jl. Walini No. 24 RT.04 RW.16",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMK Taruna Harapan Bangsa",
+        "nama_sekolah":"SMK TARUNA HARAPAN BANGSA",
         "npsn":70030268,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-7.1071,
-        "longitude":107.459,
+        "latitude":-7.1100527,
+        "longitude":107.4590175,
         "alamat":"Kp. Tabrik RT. 01\/01",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"SMK"
@@ -5137,7 +5137,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS Taruna Madya Cempaka Mulya",
+        "nama_sekolah":"SMKS TARUNA MADYA CEMPAKA MULYA",
         "npsn":69952316,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -5148,7 +5148,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS Plus Bani Muchtar Rancaekek",
+        "nama_sekolah":"SMKS PLUS BANI MUCHTAR RANCAEKEK",
         "npsn":69950528,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -6534,7 +6534,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMK BUSTANUL ULUM ",
+        "nama_sekolah":"SMK BUSTANUL ULUM",
         "npsn":20269316,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -6622,7 +6622,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Daarul Hasan",
+        "nama_sekolah":"MAS DAARUL HASAN",
         "npsn":69941657,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -6633,7 +6633,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Miftahurroja",
+        "nama_sekolah":"MAS MIFTAHURROJA",
         "npsn":69941651,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -6644,7 +6644,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Nusantara",
+        "nama_sekolah":"MAS NUSANTARA",
         "npsn":69886289,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -6974,7 +6974,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAN 1 Bandung",
+        "nama_sekolah":"MAN 1 BANDUNG",
         "npsn":20279964,
         "status":"NEGERI",
         "akreditasi":"A",
@@ -7172,7 +7172,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Al Fakhriyah",
+        "nama_sekolah":"MAS AL FAKHRIYAH",
         "npsn":69851039,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7194,12 +7194,12 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Karya Bakti Sukasari",
+        "nama_sekolah":"KARYA BAKTI SUKASARI",
         "npsn":69955675,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.9363472927,
-        "longitude":107.7346687723,
+        "latitude":-7.0625524328,
+        "longitude":107.7938814753,
         "alamat":"Jl. Cibeureum Gg. Mesjid No 36 Sukasari",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7231,8 +7231,8 @@
         "npsn":69976324,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-7.0483831,
-        "longitude":107.5430747,
+        "latitude":-7.1,
+        "longitude":107.61667,
         "alamat":"Jl. Gading Tutuka 2 RT 07\/11",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7260,7 +7260,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"K- Alma",
+        "nama_sekolah":"K- ALMA",
         "npsn":69955681,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -7304,18 +7304,18 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Sekolah Cinta Ilmu",
+        "nama_sekolah":"SEKOLAH CINTA ILMU",
         "npsn":69955685,
         "status":"SWASTA",
         "akreditasi":"B",
-        "latitude":-7.0213879817,
-        "longitude":107.6735650039,
+        "latitude":-7.0215125,
+        "longitude":107.673407,
         "alamat":"Jl. Raya Laswi No.316, Kawungsari Hilir Rt 03\/11",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Al-Barkah Sukasenang",
+        "nama_sekolah":"MAS AL-BARKAH SUKASENANG",
         "npsn":69886290,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7370,7 +7370,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Inspiratif",
+        "nama_sekolah":"INSPIRATIF",
         "npsn":69955682,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -7381,7 +7381,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Nurul Mu Min",
+        "nama_sekolah":"MAS NURUL MU MIN",
         "npsn":69941654,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7403,7 +7403,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Bina Negara",
+        "nama_sekolah":"MAS BINA NEGARA",
         "npsn":69941653,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7440,8 +7440,8 @@
         "npsn":69976326,
         "status":"SWASTA",
         "akreditasi":"B",
-        "latitude":-7.0117,
-        "longitude":107.2515,
+        "latitude":-7.0019576,
+        "longitude":107.6528504,
         "alamat":"JLN. MOH.RAMDAN BOJONGSARI RT 04\/05",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7458,7 +7458,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Plus Ibadurrohman",
+        "nama_sekolah":"MAS PLUS IBADURROHMAN",
         "npsn":69941650,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -7469,12 +7469,12 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Azkiya Al Islami",
+        "nama_sekolah":"AZKIYA AL ISLAMI",
         "npsn":69955678,
         "status":"SWASTA",
         "akreditasi":"C",
-        "latitude":-6.9641,
-        "longitude":107.3436,
+        "latitude":-6.85889,
+        "longitude":107.44556,
         "alamat":"Kp. Cigintung Rt.05\/12",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7484,8 +7484,8 @@
         "npsn":70028908,
         "status":"SWASTA",
         "akreditasi":"B",
-        "latitude":-7.0595,
-        "longitude":107.6806,
+        "latitude":-7.065713,
+        "longitude":107.676714,
         "alamat":"KP. CIKETUT RT 03 RW 11 DESA RANCAKOLE KEC. ARJASARI KAB.BANDUNG",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7506,8 +7506,8 @@
         "npsn":70044318,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.44528,
-        "longitude":107.62667,
+        "latitude":-6.98556,
+        "longitude":107.84,
         "alamat":"Kp. Munggang Sari Rt. 04 Rw.07",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7517,8 +7517,8 @@
         "npsn":70027539,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.8775,
-        "longitude":107.6981,
+        "latitude":-6.8914339,
+        "longitude":107.694934,
         "alamat":"Babakan Cimahi RT 02 RW 05 Desa Giri Mekar Kecamatan Cilengkrang Kabupaten Bandu",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7550,14 +7550,14 @@
         "npsn":70044258,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-7.06028,
-        "longitude":107.62694,
+        "latitude":-7.055,
+        "longitude":107.64611,
         "alamat":"Kp.Cimenterik Rt.05 Rw.14",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Ibnu Umar",
+        "nama_sekolah":"MAS IBNU UMAR",
         "npsn":69941655,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -7568,7 +7568,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAN 2 Bandung",
+        "nama_sekolah":"MAN 2 BANDUNG",
         "npsn":20279972,
         "status":"NEGERI",
         "akreditasi":"A",
@@ -7579,7 +7579,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Darul Fithrah",
+        "nama_sekolah":"DARUL FITHRAH",
         "npsn":69955679,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -7601,7 +7601,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Bina Insan Mulia Al-Mawahib",
+        "nama_sekolah":"BINA INSAN MULIA AL-MAWAHIB",
         "npsn":69955686,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7678,7 +7678,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Yapiq",
+        "nama_sekolah":"YAPIQ",
         "npsn":69955687,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7748,8 +7748,8 @@
         "npsn":70048961,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.93194,
-        "longitude":107.7275,
+        "latitude":-7.058002,
+        "longitude":107.76937,
         "alamat":"Kp. Carik RT 06\/16 DS. Sukamantri",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7777,7 +7777,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Salafiyah Al-Falah",
+        "nama_sekolah":"MAS SALAFIYAH AL-FALAH",
         "npsn":69941652,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -7799,7 +7799,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Ulul Albab",
+        "nama_sekolah":"ULUL ALBAB",
         "npsn":69955674,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7825,8 +7825,8 @@
         "npsn":70045390,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-7.10806,
-        "longitude":107.69694,
+        "latitude":-7.1024,
+        "longitude":107.4654,
         "alamat":"Jln. Bhayangkara Kp. Griyasukasari RT 01\/18",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -7876,7 +7876,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Ash-Shidiq",
+        "nama_sekolah":"ASH-SHIDIQ",
         "npsn":69955676,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7909,7 +7909,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Persis Katapang",
+        "nama_sekolah":"PERSIS KATAPANG",
         "npsn":69894816,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7920,18 +7920,18 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Muadalah Baitul Hidayah",
+        "nama_sekolah":"MUADALAH BAITUL HIDAYAH",
         "npsn":69956413,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.8761,
-        "longitude":107.6756,
+        "latitude":-6.93083,
+        "longitude":107.59972,
         "alamat":"Bukit Panyandaan",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Al Qur an Hidayatullah",
+        "nama_sekolah":"AL QUR AN HIDAYATULLAH",
         "npsn":69955684,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7942,7 +7942,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS La-Tahzan",
+        "nama_sekolah":"MAS LA-TAHZAN",
         "npsn":69941656,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7953,7 +7953,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Sabilunnajah",
+        "nama_sekolah":"SABILUNNAJAH",
         "npsn":69955677,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -7986,7 +7986,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Ar-Raudloh",
+        "nama_sekolah":"AR-RAUDLOH",
         "npsn":69955683,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -8019,7 +8019,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"Daarul Qolam",
+        "nama_sekolah":"DAARUL QOLAM",
         "npsn":69955680,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -8045,8 +8045,8 @@
         "npsn":69937238,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.8713,
-        "longitude":107.5051,
+        "latitude":-6.92222,
+        "longitude":107.60694,
         "alamat":"Kabupaten Bandung Jawa Barat",
         "wilayah":"Kab. Bandung",
         "bentuk_pendidikan":"MA"
@@ -8096,7 +8096,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Plus Ulumul Qur\u2019an Al Mustofa",
+        "nama_sekolah":"SMA PLUS ULUMUL QUR\u2019AN AL MUSTOFA",
         "npsn":70008586,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -8404,12 +8404,12 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"Sekolah Rakyat Menengah Atas Terintegrasi 4 Sumedang",
+        "nama_sekolah":"SEKOLAH RAKYAT MENENGAH ATAS TERINTEGRASI 4 SUMEDANG",
         "npsn":70055468,
         "status":"NEGERI",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.827172244,
-        "longitude":107.9152678694,
+        "latitude":-6.843843,
+        "longitude":107.940611,
         "alamat":"Jl. Rancamulya No. 1 Desa Ranca Mulya Kecamatan Sumedang Utara",
         "wilayah":"Kab. Sumedang",
         "bentuk_pendidikan":"SMA"
@@ -8657,7 +8657,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMK YPIB Jatinunggal",
+        "nama_sekolah":"SMK YPIB JATINUNGGAL",
         "npsn":69858466,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -8745,7 +8745,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS Inovasi Mandiri",
+        "nama_sekolah":"SMKS INOVASI MANDIRI",
         "npsn":69788177,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -8855,7 +8855,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS YASPRI WADO ",
+        "nama_sekolah":"SMKS YASPRI WADO",
         "npsn":20279889,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -9420,8 +9420,8 @@
         "npsn":70006233,
         "status":"SWASTA",
         "akreditasi":"B",
-        "latitude":-6.86861,
-        "longitude":108.01083,
+        "latitude":-6.8686,
+        "longitude":108.0114,
         "alamat":"DUSUN CIKADU RT 02 RW 05",
         "wilayah":"Kab. Sumedang",
         "bentuk_pendidikan":"MA"
@@ -9530,8 +9530,8 @@
         "npsn":69976354,
         "status":"SWASTA",
         "akreditasi":"C",
-        "latitude":-6.7154944067,
-        "longitude":108.5686972777,
+        "latitude":-6.84944,
+        "longitude":107.89778,
         "alamat":"Jl. Genteng Km.01 Dsn. Sukaluyu",
         "wilayah":"Kab. Sumedang",
         "bentuk_pendidikan":"MA"
@@ -9603,7 +9603,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Miftahussa adah",
+        "nama_sekolah":"MAS MIFTAHUSSA ADAH",
         "npsn":69955709,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -9669,7 +9669,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Miftahul Jannah",
+        "nama_sekolah":"MAS MIFTAHUL JANNAH",
         "npsn":69941674,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -9717,8 +9717,8 @@
         "npsn":70049542,
         "status":"SWASTA",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.8088224,
-        "longitude":107.5767276,
+        "latitude":0.0024,
+        "longitude":0.0,
         "alamat":"Jl. Cihanjuang Rahayu No. 303 RT.01\/06",
         "wilayah":"Kab. Bandung Barat",
         "bentuk_pendidikan":"SMA"
@@ -9761,8 +9761,8 @@
         "npsn":70044915,
         "status":"SWASTA",
         "akreditasi":"A",
-        "latitude":-6.8340124862,
-        "longitude":107.6380712668,
+        "latitude":-6.83333,
+        "longitude":107.48333,
         "alamat":"Jl. Dago Giri No. 5 RT.02 RW.12 ",
         "wilayah":"Kab. Bandung Barat",
         "bentuk_pendidikan":"SMA"
@@ -9790,7 +9790,7 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"SMA Global Solusi Indonesia",
+        "nama_sekolah":"SMA GLOBAL SOLUSI INDONESIA",
         "npsn":70031480,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -10340,12 +10340,12 @@
         "bentuk_pendidikan":"SMA"
     },
     {
-        "nama_sekolah":"Sekolah Rakyat Menengah Atas 14 Bandung Barat",
+        "nama_sekolah":"SEKOLAH RAKYAT MENENGAH ATAS 14 BANDUNG BARAT",
         "npsn":70055428,
         "status":"NEGERI",
         "akreditasi":"Tidak Terdata",
-        "latitude":-6.9068074072,
-        "longitude":107.6683870832,
+        "latitude":-6.8137870868,
+        "longitude":107.6246049332,
         "alamat":"Jl. Panorama 1, Kayuambon,  Kec. Lembang, Kabupaten Bandung Barat",
         "wilayah":"Kab. Bandung Barat",
         "bentuk_pendidikan":"SMA"
@@ -10472,7 +10472,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMK SURYA PERTIWI 2 ",
+        "nama_sekolah":"SMK SURYA PERTIWI 2",
         "npsn":69964418,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -10857,7 +10857,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS IT NU ",
+        "nama_sekolah":"SMKS IT NU",
         "npsn":20279934,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -10868,7 +10868,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS BINA INSAN MANDIRI ",
+        "nama_sekolah":"SMKS BINA INSAN MANDIRI",
         "npsn":20279933,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -10879,7 +10879,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS TARUNA HARAPAN 1 ",
+        "nama_sekolah":"SMKS TARUNA HARAPAN 1",
         "npsn":20279930,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -10890,7 +10890,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKN 1 CIPEUNDEUY ",
+        "nama_sekolah":"SMKN 1 CIPEUNDEUY",
         "npsn":20279928,
         "status":"NEGERI",
         "akreditasi":"B",
@@ -10901,7 +10901,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS BINA PUTRA ",
+        "nama_sekolah":"SMKS BINA PUTRA",
         "npsn":20279927,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -10912,7 +10912,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMK INFORMATIKA FITRAH INSANI ",
+        "nama_sekolah":"SMK INFORMATIKA FITRAH INSANI",
         "npsn":20279925,
         "status":"SWASTA",
         "akreditasi":"A",
@@ -10923,7 +10923,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS WYATA DHARMA ",
+        "nama_sekolah":"SMKS WYATA DHARMA",
         "npsn":20279923,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -10934,7 +10934,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS SURYA PERTIWI ",
+        "nama_sekolah":"SMKS SURYA PERTIWI",
         "npsn":20279921,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -10945,7 +10945,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS PENGETAHUAN NUSANTARA SAKTI (PENUS) ",
+        "nama_sekolah":"SMKS PENGETAHUAN NUSANTARA SAKTI (PENUS)",
         "npsn":20279920,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -11319,7 +11319,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS BINA SISWA 2 ",
+        "nama_sekolah":"SMKS BINA SISWA 2",
         "npsn":20279922,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -11352,7 +11352,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS BINA SISWA 1 ",
+        "nama_sekolah":"SMKS BINA SISWA 1",
         "npsn":20279924,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -11363,7 +11363,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS HAMKA PADALARANG ",
+        "nama_sekolah":"SMKS HAMKA PADALARANG",
         "npsn":20279935,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -11418,7 +11418,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS TARUNA HARAPAN 2 ",
+        "nama_sekolah":"SMKS TARUNA HARAPAN 2",
         "npsn":20279929,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -11451,7 +11451,7 @@
         "bentuk_pendidikan":"SMK"
     },
     {
-        "nama_sekolah":"SMKS DWI PUTRA ",
+        "nama_sekolah":"SMKS DWI PUTRA",
         "npsn":20279926,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -11517,7 +11517,7 @@
         "bentuk_pendidikan":"SMAK"
     },
     {
-        "nama_sekolah":"MAS Nazwa",
+        "nama_sekolah":"MAS NAZWA",
         "npsn":69955718,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -11627,7 +11627,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Muslimin Saguling",
+        "nama_sekolah":"MAS MUSLIMIN SAGULING",
         "npsn":20280042,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -11961,8 +11961,8 @@
         "npsn":69976360,
         "status":"SWASTA",
         "akreditasi":"B",
-        "latitude":-6.8204478527,
-        "longitude":107.5563570097,
+        "latitude":-6.81806,
+        "longitude":107.56639,
         "alamat":"Jl. Kolonel Masturi Kp. Panyandaan RT 02\/14",
         "wilayah":"Kab. Bandung Barat",
         "bentuk_pendidikan":"MA"
@@ -12045,7 +12045,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS At-Taqwa Cihampelas",
+        "nama_sekolah":"MAS AT-TAQWA CIHAMPELAS",
         "npsn":69941677,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -12122,7 +12122,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Ar-Rahman",
+        "nama_sekolah":"MAS AR-RAHMAN",
         "npsn":69894818,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -12188,7 +12188,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Al-Furqon Citapen",
+        "nama_sekolah":"MAS AL-FURQON CITAPEN",
         "npsn":69955717,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -12199,7 +12199,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Nuurus Salaam",
+        "nama_sekolah":"MAS NUURUS SALAAM",
         "npsn":69941680,
         "status":"SWASTA",
         "akreditasi":"B",
@@ -12265,7 +12265,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Syarif Hidayatulloh",
+        "nama_sekolah":"MAS SYARIF HIDAYATULLOH",
         "npsn":69941679,
         "status":"SWASTA",
         "akreditasi":"C",
@@ -12298,7 +12298,7 @@
         "bentuk_pendidikan":"MA"
     },
     {
-        "nama_sekolah":"MAS Darussyifa Buninagara",
+        "nama_sekolah":"MAS DARUSSYIFA BUNINAGARA",
         "npsn":69941678,
         "status":"SWASTA",
         "akreditasi":"C",

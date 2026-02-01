@@ -19,7 +19,7 @@ cookies = {
     "TSc78de468027": "0837bd474fab2000843db62a874f83328a8bc9f7437b887869405ddf7d75b86ae574f34ae984059d0808fc6b2d1130008c39c9dc522f8c0983a7e0199f23dd7a96bf23fe6c0a612fcc5a018d1d2790aae90feb4f9efc72688e7f768cc09226e8"
 }
 
-daftar_kota = ["Kota Bandung", "Kota Cimahi", "Kab. Bandung", "Kab. Sumedang", "Kab. Bandung Barat"]
+daftar_kota = ["Kota Bandung", "Kota Cimahi", "Kab. Bandung", "Kab. Sumedang","Kab. Bandung Barat"]
 daftar_bentuk = ["SMA", "SMK", "SMAK", "MA"]
 semua_data_sekolah = []
 
