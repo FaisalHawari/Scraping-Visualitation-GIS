@@ -36,6 +36,10 @@ st.markdown("""
         font-size: 14px;
         color: #7f8c8d;
     }
+    /* Style tombol bantuan */
+    .stButton button {
+        width: 100%;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -71,15 +75,11 @@ def load_data():
         df['longitude'] = pd.to_numeric(df['longitude'], errors='coerce').fillna(0)
         df['status'] = df['status'].astype(str).str.upper().str.strip()
         
-        # Pastikan kolom akreditasi aman
-        if 'akreditasi' not in df.columns:
-            df['akreditasi'] = "Tidak Terdata"
-        else:
-            df['akreditasi'] = df['akreditasi'].fillna("Tidak Terdata")
+        if 'akreditasi' not in df.columns: df['akreditasi'] = "Tidak Terdata"
+        else: df['akreditasi'] = df['akreditasi'].fillna("Tidak Terdata")
             
-        # Pastikan kolom alamat aman
-        if 'alamat' not in df.columns:
-            df['alamat'] = "-"
+        if 'alamat' not in df.columns: df['alamat'] = "-"
+        else: df['alamat'] = df['alamat'].fillna("-")
         
         if 'nama_sekolah' in df.columns:
             df['nama_sekolah'] = df['nama_sekolah'].astype(str).str.replace('"', '').str.replace("'", "")
@@ -123,7 +123,7 @@ def save_laporan():
         os.remove(file_path)
 
 # ==========================================
-# 4. SIDEBAR FILTER
+# 4. SIDEBAR FILTER & BANTUAN (UPDATE DISINI)
 # ==========================================
 st.sidebar.header("🎛️ Panel Kontrol")
 mode_tampilan = st.sidebar.radio("Menu:", ["📊 Dashboard Utama", "📂 Data Lengkap", "🗣️ Forum Warga"])
@@ -153,6 +153,24 @@ else:
 
 st.sidebar.success(f"Data Terpilih: {len(df_filtered)}")
 
+# --- [FITUR BARU: BANTUAN PERSONAL] ---
+st.sidebar.markdown("---")
+with st.sidebar.expander("🆘 Butuh Bantuan Personal?", expanded=True):
+    st.write("Hubungi Tim Developer kami jika menemukan kendala:")
+    
+    # GANTI NOMOR HP & ID TELEGRAM DISINI YA KING!
+    # Format WA: https://wa.me/628xxxxxxxxxx
+    # Format TG: https://t.me/username_telegram
+    
+    col_wa, col_tg = st.columns(2)
+    with col_wa:
+        st.link_button("WhatsApp", "https://wa.me/6282217849130") 
+    with col_tg:
+        st.link_button("Telegram", "https://t.me/Sam214f")
+    
+    st.caption("Respon cepat: 08.00 - 16.00 WIB")
+# --------------------------------------
+
 # ==========================================
 # 5. FUNGSI GRAFIK
 # ==========================================
@@ -167,11 +185,8 @@ def buat_donut_chart(data, kolom, judul):
         return '{:.1f}%'.format(x) if x > 5 else ''
 
     wedges, texts, autotexts = ax.pie(
-        counts, 
-        autopct=my_fmt, 
-        startangle=90, 
-        colors=colors[:len(counts)], 
-        pctdistance=0.85,
+        counts, autopct=my_fmt, startangle=90, 
+        colors=colors[:len(counts)], pctdistance=0.85,
         textprops={'color':"black", 'weight':'bold'}
     )
     
@@ -212,36 +227,44 @@ if mode_tampilan == "📊 Dashboard Utama":
         m = folium.Map(location=[-6.9175, 107.6191], zoom_start=12)
         marker_cluster = MarkerCluster().add_to(m)
         
-        # Mengubah data ke list agar mudah dilooping cara pemula
         data_list = df_filtered.to_dict('records')
         count_map = 0
         
-        # Looping biasa menggunakan range
         for i in range(len(data_list)):
             row = data_list[i]
             lat = row['latitude']
             lon = row['longitude']
 
-            # Filter koordinat: Bandung Raya & Sumedang
-            # Latitude antara -7.25 sampai -6.70
-            # Longitude antara 107.30 sampai 108.10
             if (lat >= -7.25 and lat <= -6.70) and (lon >= 107.30 and lon <= 108.350):
                 count_map += 1
                 warna = 'red' if row['status'] == 'SWASTA' else 'blue'
                 
+                # --- POPUP SULTAN ---
+                alamat_clean = str(row['alamat'])
+                if len(alamat_clean) > 50:
+                    alamat_clean = alamat_clean[:50] + "..."
+                
                 popup_html = f"""
-                <div style="font-family: Arial; font-size: 13px; width: 250px;">
-                    <h4 style="margin:0; padding-bottom:5px; color:#2c3e50;">{row['nama_sekolah']}</h4>
-                    <hr style="margin:5px 0; border: 1px solid #eee;">
-                    <b>Status:</b> {row['status']}<br>
-                    <b>Akreditasi:</b> <span style="background-color:#f1c40f; padding:2px 5px; border-radius:3px;">{row['akreditasi']}</span><br>
-                    <b>Alamat:</b> {row['alamat']}
+                <div style="font-family: 'Segoe UI', sans-serif; font-size: 13px; width: 240px;">
+                    <div style="background-color: #ecf0f1; padding: 5px; border-radius: 5px; margin-bottom: 5px;">
+                        <b style="color: #2c3e50; font-size: 14px;">{row['nama_sekolah']}</b>
+                    </div>
+                    <div style="margin-bottom: 5px;">
+                        <span style="color: #7f8c8d;">Status:</span> <b>{row['status']}</b>
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                        <span style="color: #7f8c8d;">Akreditasi:</span> 
+                        <span style="background-color: #27ae60; color: white; padding: 2px 8px; border-radius: 15px; font-weight: bold; font-size: 11px;">{row['akreditasi']}</span>
+                    </div>
+                    <div style="border-top: 1px dashed #bdc3c7; padding-top: 5px; color: #555; font-style: italic;">
+                        <span style="color: #e74c3c; font-style: normal;">📍</span> {alamat_clean}
+                    </div>
                 </div>
                 """
                 
                 folium.Marker(
                     [lat, lon],
-                    popup=folium.Popup(popup_html, max_width=300),
+                    popup=folium.Popup(popup_html, max_width=260),
                     icon=folium.Icon(color=warna, icon='info-sign')
                 ).add_to(marker_cluster)
         
