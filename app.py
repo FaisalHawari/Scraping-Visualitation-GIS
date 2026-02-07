@@ -6,17 +6,15 @@ from folium.plugins import MarkerCluster
 import matplotlib.pyplot as plt
 import os
 
-# ==========================================
-# 1. KONFIGURASI HALAMAN
-# ==========================================
+# Konfigurasi halaman
 st.set_page_config(
-    page_title="Sistem Analisis Sekolah Bandung",
+    page_title="Sistem Analisis Sekolah Bandung Raya dan Sumedang",
     page_icon="🏫",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# CSS Keren
+# style popup
 st.markdown("""
     <style>
     .metric-card {
@@ -28,7 +26,7 @@ st.markdown("""
         text-align: center;
     }
     .metric-value {
-        font-size: 24px;
+        font-size: 100px;
         font-weight: bold;
         color: #2c3e50;
     }
@@ -36,19 +34,17 @@ st.markdown("""
         font-size: 14px;
         color: #7f8c8d;
     }
-    /* Style tombol bantuan */
     .stButton button {
         width: 100%;
     }
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🏫 Dashboard Analisis & Sebaran Sekolah")
+st.title("🏫 Dashboard Analisis & Sebaran Sekolah Menengah Atas di Bandung Raya dan Sumedang")
 st.markdown("---")
 
-# ==========================================
-# 2. LOAD DATA
-# ==========================================
+
+# load data
 @st.cache_data
 def load_data():
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -91,40 +87,37 @@ def load_data():
 
 df = load_data()
 
-# ==========================================
-# 3. SISTEM LAPORAN
-# ==========================================
-FILE_LAPORAN = "laporan_warga.csv"
+
+# Sistem laporan
+base_dir = os.path.dirname(os.path.abspath(__file__))
+folder_data = os.path.join(base_dir, "data")
+if not os.path.exists(folder_data):
+    os.makedirs(folder_data)
+
+PATH_LAPORAN = os.path.join(folder_data, "laporan_warga.csv")
+
+def load_laporan_dari_csv():
+    
+    if os.path.exists(PATH_LAPORAN):
+        try:
+            return pd.read_csv(PATH_LAPORAN).to_dict('records')
+        except:
+            return []
+    return []
 
 if 'laporan_db' not in st.session_state:
-    if os.path.exists(FILE_LAPORAN):
-        try:
-            st.session_state['laporan_db'] = pd.read_csv(FILE_LAPORAN).to_dict('records')
-        except:
-            st.session_state['laporan_db'] = []
-    else:
-        st.session_state['laporan_db'] = []
+    st.session_state['laporan_db'] = load_laporan_dari_csv()
 
 def save_laporan():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    if st.session_state['laporan_db']:
+        df_save = pd.DataFrame(st.session_state['laporan_db'])
+        df_save.to_csv(PATH_LAPORAN, index=False)
+    else:
+        # Jika list kosong, hapus filenya atau buat file kosong
+        if os.path.exists(PATH_LAPORAN):
+            pd.DataFrame(columns=["Pelapor", "Sekolah", "Ket", "Status"]).to_csv(PATH_LAPORAN, index=False)
 
-    folder_data = os.path.join(base_dir, "data")
-    
-    if not os.path.exists(folder_data):
-        os.makedirs(folder_data)
-
-    file_path = os.path.join(folder_data, FILE_LAPORAN)
-
-    if st.session_state.get('laporan_db'):
-        df = pd.DataFrame(st.session_state['laporan_db'])
-        df.to_csv(file_path, index=False)
-        
-    elif os.path.exists(file_path):
-        os.remove(file_path)
-
-# ==========================================
-# 4. SIDEBAR FILTER & BANTUAN (UPDATE DISINI)
-# ==========================================
+# Fitur sidebar dan bantuan
 st.sidebar.header("🎛️ Panel Kontrol")
 mode_tampilan = st.sidebar.radio("Menu:", ["📊 Dashboard Utama", "📂 Data Lengkap", "🗣️ Forum Warga"])
 st.sidebar.markdown("---")
@@ -153,27 +146,19 @@ else:
 
 st.sidebar.success(f"Data Terpilih: {len(df_filtered)}")
 
-# --- [FITUR BARU: BANTUAN PERSONAL] ---
+# Fitur bantuan personal
 st.sidebar.markdown("---")
 with st.sidebar.expander("🆘 Butuh Bantuan Personal?", expanded=True):
-    st.write("Hubungi Tim Developer kami jika menemukan kendala:")
-    
-    # GANTI NOMOR HP & ID TELEGRAM DISINI YA KING!
-    # Format WA: https://wa.me/628xxxxxxxxxx
-    # Format TG: https://t.me/username_telegram
-    
+    st.write("Hubungi Tim Helper kami jika menemukan kendala:")
     col_wa, col_tg = st.columns(2)
     with col_wa:
-        st.link_button("WhatsApp", "https://wa.me/6282217849130") 
+        st.link_button("WhatsApp (Ernest)", "https://wa.me/6282217849130") 
     with col_tg:
-        st.link_button("Telegram", "https://t.me/Sam214f")
-    
-    st.caption("Respon cepat: 08.00 - 16.00 WIB")
-# --------------------------------------
+        st.link_button("WhatsApp (Faisal)", "https://wa.me/6281224017174")
+    st.caption("Respon cepat(jam kerja): 08.00 - 16.00 WIB")
 
-# ==========================================
-# 5. FUNGSI GRAFIK
-# ==========================================
+
+# Fungsi grafik
 def buat_donut_chart(data, kolom, judul):
     if data.empty: return None
     
@@ -197,13 +182,9 @@ def buat_donut_chart(data, kolom, judul):
     ax.axis('equal')
     return fig
 
-# ==========================================
-# 6. KONTEN UTAMA
-# ==========================================
-
+# Konten utama
 if mode_tampilan == "📊 Dashboard Utama":
     
-    # === METRICS ===
     if not df_filtered.empty:
         total_sekolah = len(df_filtered)
         total_negeri = len(df_filtered[df_filtered['status'] == 'NEGERI'])
@@ -218,7 +199,7 @@ if mode_tampilan == "📊 Dashboard Utama":
     
     st.markdown("---")
 
-    # === PETA ===
+    # Fitur GIS
     st.subheader(f"🗺️ Peta Sebaran")
     
     if df_filtered.empty:
@@ -239,7 +220,7 @@ if mode_tampilan == "📊 Dashboard Utama":
                 count_map += 1
                 warna = 'red' if row['status'] == 'SWASTA' else 'blue'
                 
-                # --- POPUP SULTAN ---
+                # Popup
                 alamat_clean = str(row['alamat'])
                 if len(alamat_clean) > 50:
                     alamat_clean = alamat_clean[:50] + "..."
@@ -273,7 +254,7 @@ if mode_tampilan == "📊 Dashboard Utama":
 
     st.markdown("---")
 
-    # === GRAFIK ===
+    # Grafik
     st.subheader("📊 Statistik Ringkas")
     c1, c2 = st.columns(2)
     with c1:
@@ -285,7 +266,7 @@ if mode_tampilan == "📊 Dashboard Utama":
 
     st.markdown("---")
     
-    # === REKOMENDASI ===
+    # Rekomendasi
     st.subheader("🚧 Rekomendasi Pembangunan")
     if not df_filtered.empty:
         df_wil = df_filtered['wilayah'].value_counts().reset_index()
@@ -336,15 +317,42 @@ elif mode_tampilan == "🗣️ Forum Warga":
                     st.error("Isi lengkap!")
 
     with c2:
-        st.write("📋 **Daftar Laporan**")
+        st.write("📋 **Daftar Laporan Masuk**")
+        
+        # Tabel biasa pada laporan
         if st.session_state['laporan_db']:
             st.dataframe(pd.DataFrame(st.session_state['laporan_db']), use_container_width=True)
         else:
-            st.info("Belum ada laporan.")
+            st.info("Belum ada laporan dari warga.")
             
-        with st.expander("🔒 Admin Area"):
-            if st.text_input("Password", type="password") == "admin123":
-                if st.button("🗑️ Hapus Semua Laporan"):
-                    st.session_state['laporan_db'] = []
-                    save_laporan()
-                    st.rerun()
+        st.markdown("---")
+        
+        # Fitur area admin
+        with st.expander("🔒 Admin Area (Kelola Laporan)"):
+            password_input = st.text_input("Masukkan Password Admin:", type="password", key="admin_pass")
+            
+            if password_input == "fei~123":
+                st.success("✅ Login Berhasil! Silakan kelola data di bawah ini.")
+                
+                if st.session_state['laporan_db']:
+                    st.write("### Hapus Laporan Tertentu:")
+                    
+                    df_lapor = pd.DataFrame(st.session_state['laporan_db'])
+
+                    for index, row in df_lapor.iterrows():
+                        col_text, col_btn = st.columns([3, 1])
+                        
+                        with col_text:
+                            st.markdown(f"**{row['Pelapor']}** - _{row['Sekolah']}_")
+                            st.caption(f"Isi: {row['Ket']}")
+                            st.divider()
+                        
+                        with col_btn:
+                            if st.button("🗑️ Hapus", key=f"hapus_{index}"):
+                                st.session_state['laporan_db'].pop(index)
+                                save_laporan()
+                                st.rerun()
+                else:
+                    st.info("Tidak ada laporan yang perlu dihapus.")
+            elif password_input:
+                st.error("❌ Password salah!")

@@ -8,6 +8,7 @@ df = pd.read_json(file_path)
 geolocator = ArcGIS(user_agent="lokasi_sekolah")
 df['alamat_lengkap'] = df['nama_sekolah'] + ", " + df['alamat'] + ", " + df['wilayah']
 
+# Fungsi untuk mendapatkan koordinat
 def geocode(alamat):
     try:
         location = geolocator.geocode(alamat)
